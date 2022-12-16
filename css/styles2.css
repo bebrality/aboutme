@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+    background-color: #000000;
+}
+
+
+.header {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    height: 1000px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 15px;
+}
+
+nav {
+    margin: 0 auto;
+}
+
+nav ul {
+    display: table;
+    margin: 0 auto;
+}
+
+nav li {
+    float:left;
+}
+
+a {
+    top: 400px;
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+    transition: 1s;
+    font-family: 'Roboto Mono', monospace;
+}
+
+a:hover {
+    color: #4178a1;
+}
+
+.video {
+    position: absolute;
+    min-width: 100% !important;
+    max-height: 1000% !important;
+    overflow: hidden;
+    object-fit: fill;
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+    z-index: -1;
+}
+
+.contacts {
+    color: aliceblue;
+    text-align: center;
+    margin-top: -650px;
+    font-size: 76px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.steam{
+    width: 20px;
+    height: 20px;
+    float: right;
+    transform: translate(10px, 4px);
+    padding-left: 5px;
+}
+
+.vk {
+    width: 20px;
+    height: 20px;
+    float: right;
+    transform: translate(10px, 4px);
+    padding-left: 5px;
+}
+
+.telegram {
+    width: 20px;
+    height: 20px;
+    float: right;
+    transform: translate(10px, 4px);
+    padding-left: 5px;
+}
+
+.github {
+    width: 20px;
+    height: 20px;
+    float: right;
+    transform: translate(10px, 4px);
+    padding-left: 5px;
+}
+
+.discord {
+    width: 25px;
+    height: 20px;
+    float: right;
+    transform: translate(10px, 4px);
+    padding-left: 5px;
+}

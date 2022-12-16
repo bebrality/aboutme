@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+    background-color: #000000;
+}
+
+
+.header {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    height: 1370px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 15px;
+}
+
+nav {
+    margin: 0 auto;
+}
+
+nav ul {
+    display: table;
+    margin: 0 auto;
+}
+
+nav li {
+    float:left;
+}
+
+a {
+    top: 400px;
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+    transition: 1s;
+    font-family: 'Roboto Mono', monospace;
+}
+
+a:hover {
+    color: #4178a1;
+}
+
+.logo {
+    transform:translate(-960px, -250px);
+    width: 600px;
+    height: 500px;
+    display: inline-block; 
+    overflow: hidden;
+}
+
+.video {
+    position: absolute;
+    min-width: 100% !important;
+    max-height: 1000% !important;
+    overflow: hidden;
+    object-fit: fill;
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+    z-index: -1;
+}
+
+.contacts {
+    color: aliceblue;
+    text-align: center;
+    margin-top: -800px;
+    font-size: 76px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.steam{
+    width: 20px;
+    height: 20px;
+    float: right;
+    transform: translate(10px, 4px);
+    padding-left: 5px;
+}
+
+.vk {
+    width: 20px;
+    height: 20px;
+    float: right;
+    transform: translate(10px, 4px);
+    padding-left: 5px;
+}
+
+.telegram {
+    width: 20px;
+    height: 20px;
+    float: right;
+    transform: translate(10px, 4px);
+    padding-left: 5px;
+}
+
+.github {
+    width: 20px;
+    height: 20px;
+    float: right;
+    transform: translate(10px, 4px);
+    padding-left: 5px;
+}
+
+.discord {
+    width: 25px;
+    height: 20px;
+    float: right;
+    transform: translate(10px, 4px);
+    padding-left: 5px;
+}
+
+.block {
+    width: 400px;
+    height: 500px;
+    transform: translate(1100px, -1100px);
+    background-color: #000000;
+    opacity: 0.5;
+    border-style: dotted;
+    border-color: rgb(255, 255, 255);
+    z-index: 1;
+    -webkit-box-shadow: 4px 4px 44px 31px rgba(65, 120, 161, 0.24);
+-moz-box-shadow: 4px 4px 44px 31px rgba(65, 120, 161, 0.24);
+box-shadow: 4px 4px 44px 31px rgba(65, 120, 161, 0.24);
+}
+
+.block h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+
+.block p{
+    padding-left: 20px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
